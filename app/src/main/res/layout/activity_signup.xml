@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_splash_bg"
+
+    android:layout_height="match_parent"
+    tools:context=".auth.SignupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:id="@+id/rlLogin"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/code_browndark_two"
+            android:textAllCaps="false"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/_18sdp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/solway_medium"
+
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/rlLogin"
+        android:gravity=""
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/code_browndark_two"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+
+            android:text="@string/be_the_coffe_lover"
+            android:textSize="@dimen/_28sdp"
+            android:fontFamily="@font/solway_regular"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/email"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/code_browndark_two"
+            android:layout_marginTop="@dimen/_25sdp"
+
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtEmail"
+            android:backgroundTint="@color/code_browndark_two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sdp"
+            android:hint=""
+            android:fontFamily="@font/solway_extrabold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/password"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/code_browndark_two"
+            android:layout_marginTop="@dimen/_25sdp"
+
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtPassword"
+            android:backgroundTint="@color/code_browndark_two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sdp"
+            android:hint=""
+            android:fontFamily="@font/solway_extrabold"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/_12sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/sign_up"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@drawable/background_rounded_brown"
+            android:layout_height="@dimen/_45sdp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

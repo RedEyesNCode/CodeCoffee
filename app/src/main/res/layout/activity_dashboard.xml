@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.DashboardActivity">
+    <fragment
+        android:id="@+id/activity_main_nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigationDashboard"
+        android:layout_centerInParent="true"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/dashboard_navigation" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/bottomNavigationDashboard"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@color/code_brownlight"
+        app:itemIconTint="@color/code_browndark_two"
+        app:itemRippleColor="@color/code_browndark_two"
+        android:layout_centerHorizontal="true"
+        android:background="@color/code_brownlight"
+        app:itemIconSize="@dimen/_25sdp"
+        app:menu="@menu/dashboard_menu"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

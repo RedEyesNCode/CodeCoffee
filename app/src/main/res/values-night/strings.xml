@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_">Code Coffee</string>
+    <string name="github_redeyesncode">Github/RedEyesNCode</string>
+    <string name="get_the_best_coffee_n_in_town">Get the best coffee \n in town</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="continue_with_facebook">Continue with facebook</string>
+    <string name="welcome_back">Welcome Back !</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="be_the_coffe_lover">Be the Coffe Lover !</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="menu">Menu</string>
+    <string name="espresso">Espresso</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="macciato">Macciato</string>
+    <string name="latte">Latte</string>
+    <string name="preferences">Preferences</string>
+    <string name="sugar">Sugar</string>
+    <string name="additions">Additions</string>
+    <string name="size">Size</string>
+    <string name="total">Total</string>
+    <string name="_150_00">$ 150.00</string>
+    <string name="buy_coffee">Buy Coffee</string>
+</resources>

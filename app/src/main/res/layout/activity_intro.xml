@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".auth.IntroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_intro_art"
+        android:layout_alignParentTop="true"
+        android:id="@+id/llArtWork"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/llArtWork"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:text="@string/get_the_best_coffee_n_in_town"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/_5sdp"
+        android:fontFamily="@font/solway_bold"
+        android:id="@+id/tvHeading"
+        android:textColor="@color/code_browndark_three"
+        android:textSize="@dimen/_25sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+
+        android:layout_below="@id/tvHeading"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:weightSum="2"
+            android:id="@+id/llButtonsLayout"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/_12sdp"
+                android:textAllCaps="false"
+                android:id="@+id/btnRegister"
+                android:textColor="@color/white"
+                android:text="@string/register"
+
+                android:background="@drawable/background_rounded_brown"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/code_browndark_two"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:id="@+id/btnlogin"
+                android:background="@drawable/background_stroke_brown"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/background_stroke_blue"
+            android:textSize="@dimen/_12sdp"
+            android:textAllCaps="false"
+            android:text="@string/continue_with_facebook"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_height="@dimen/_45sdp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
