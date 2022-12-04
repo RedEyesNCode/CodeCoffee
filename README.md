@@ -10,7 +10,7 @@ Coffee App UI Made with Kotlin, Will use modern android development tools in nea
    </tr>
   <tr>
     <td><img src="media/intro_screen.png" width=270 height=480></td>
-    <td><img src="media/splash.png" width=270 height=480></td>
+    <td><img src="media/splash_screen.png" width=270 height=480></td>
   </tr>
    
  </table>
